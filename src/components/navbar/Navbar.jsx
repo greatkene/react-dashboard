@@ -12,11 +12,7 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
         <FaBars className="icon" />
       </div>
       <div className="navbar_left">
-        <Link to="/">Link 1</Link>
-        <Link to="/">Link 2</Link>
-        <Link className="active" to="/">
-          Link 3
-        </Link>
+        <h3>Hello Admin</h3>
       </div>
       <div className="navbar_right">
         <Link to="/">
