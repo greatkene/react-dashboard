@@ -8,7 +8,7 @@ import avatar from "../../assets/img/avatar.png";
 const Navbar = ({ sidebarOpen, openSidebar }) => {
   return (
     <nav className="navbar">
-      <div className="nav_icon" onClick={() => openSidebar}>
+      <div className="nav_icon" onClick={() => openSidebar()}>
         <FaBars className="icon" />
       </div>
       <div className="navbar_left">

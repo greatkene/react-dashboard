@@ -24,7 +24,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar_menu">
         {sidebarLink.map((item) => {
           return (
-            <div className="sidebar_link">
+            <div className="sidebar_link" key={item.id}>
               <div className="icon">{item.icon}</div>
               <Link to={item.link}>{item.name}</Link>
             </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../navbar/Navbar";
 import Sidebar from "../sidebar/Sidebar";
+import "./layout.css";
 
 const DashboardLayout = ({ children }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -16,7 +17,7 @@ const DashboardLayout = ({ children }) => {
     <div className="container">
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
       <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
-      <main className="main_container">{children}</main>
+      <main>{children}</main>
     </div>
   );
 };

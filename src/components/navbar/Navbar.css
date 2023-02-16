@@ -56,9 +56,3 @@
         display: inline;
     }
 }
-
-@media only screen and (max-width: 480px) {
-    .nav_icon {
-        display: inline;
-    }
-}
