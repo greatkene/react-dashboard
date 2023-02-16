@@ -10,13 +10,13 @@ export const sidebarLink = [
   {
     id: 2,
     name: "Item 2",
-    link: "/",
+    link: "/item2",
     icon: <FaBalanceScale size={22} />,
   },
   {
     id: 3,
     name: "Item 3",
-    link: "/",
+    link: "/item3",
     icon: <FaUber size={22} />,
   },
   {

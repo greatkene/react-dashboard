@@ -8,15 +8,11 @@ import avatar from "../../assets/img/avatar.png";
 const Navbar = ({ sidebarOpen, openSidebar }) => {
   return (
     <nav className="navbar">
-      <div className="nav_icon" onClick={() => openSidebar}>
+      <div className="nav_icon" onClick={() => openSidebar()}>
         <FaBars className="icon" />
       </div>
       <div className="navbar_left">
-        <Link to="/">Link 1</Link>
-        <Link to="/">Link 2</Link>
-        <Link className="active" to="/">
-          Link 3
-        </Link>
+        <h3>Hello Admin</h3>
       </div>
       <div className="navbar_right">
         <Link to="/">
